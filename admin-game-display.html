@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Заголовок</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="libs/sumoselect/sumoselect.css">
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+
+</head>
+
+<body>
+<section class="admin_header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Панель администратора</h2>
+				<div class="admin_howdy">
+					<h3>Добро пожаловать, admin.</h3>
+					<div class="breadcrumbs_admin">
+						<ul>
+							<li><a href="#">Настройки</a></li>/
+							<li><a href="#">Изменить пароль</a></li>/
+							<li><a href="#">выйти</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="form_game_sec">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="admin_add_game_btn_wrap flex">
+					<a href="#" class="btn_admin_back">Назад</a>
+				</div>		
+				<div class="game_display_wrap game_display_wrap2">
+					<span>Не отображается</span>
+					<a href="#" class="btn_game_off">Выключить</a>
+				</div>		
+				<div class="game_nodisplay_block">Снята с публикации: 03.08.2020</div>
+				<div class="admin_form_wrap">
+					<form class="admin_form">
+						<div class="form_inp_wrap">
+						<div class="form_inp">
+							<h3>Название:</h3>
+							<input type="text">
+						</div>
+						<div class="form_inp">
+							<h3>Описание:</h3>
+							<textarea></textarea>
+						</div>
+						<div class="form_inp">
+							<h3>Цена:</h3>
+							<div class="inp_wrap">
+								<input type="text">
+								<div class="check_wrap">
+								  <input type="checkbox" id="check20" name="check20" />
+								  <label for="check20">Не делать скидку</label>
+								</div>								
+							</div>					
+						</div>
+						<div class="form_inp">
+							<h3>Ссылка на видео:</h3>
+							<input type="text">
+						</div>	
+						<div class="form_inp">
+							<h3>Фото:</h3>
+							<div class="inp_wrap">
+								<div class="file_admin_wrap">
+									<div class="input__wrapper">
+									   <input  type="file" id="input__file" multiple="" name="file" class="input input__file" >
+									   <label for="input__file" class="input__file-button">
+									     
+									      <span class="input__file-button-text">Добавить фото</span>
+									       <span class="input__file-icon-wrapper"><img class="input__file-icon" src="img/plus_file.svg" alt="" width="25"></span>
+									   </label>
+									</div>
+									<div class="file_info">Загрузите фото</div>									
+								</div>
+						    <ul class="uploadImagesList" id="uploadImagesList">
+						        <li class="item template">			
+						        <input id="radio-10" type="radio" name="radio3" value="10">
+						        <label for="radio-10">				
+						        <span class="check_in"><img src="img/check.svg" alt=""></span>				
+						            <span class="img-wrap">
+						                <img src="" alt="">
+						            </span>			
+						          </label>  			           												 
+						        </li>
+						    </ul>								
+							</div>
+						</div>	
+					</div>	
+						<div class="form_inp_wrap">
+							<h4>Поля ниже не отображаются в карточке</h4>
+						<div class="form_inp">
+							<h3>Категория:</h3>
+							<div class="inp_wrap">
+								<select multiple name="" id="">
+									<option value="">Категория 1</option>
+									<option value="">Категория 2</option>
+									<option value="">Категория 3</option>
+									<option value="">Категория 4</option>
+									<option value="">Категория 5</option>
+									<option value="">Категория 6</option>
+									<option value="">Категория 7</option>
+									<option value="">Категория 8</option>
+								</select>
+								<a href="#" class="select_mobile"></a>
+							</div>					
+						</div>		
+						<div class="form_inp">
+							<h3>Создатель игры:</h3>
+							<div class="inp_wrap">
+								<select name="" id="">
+									<option value="">ya.molly</option>
+									<option value="">alexandramitroshina</option>
+									<option value="">alex_brain</option>
+									<option value="">abramova_blog</option>
+									<option value="">vikunciy_1991</option>
+									<option value="">nastyasozonik</option>
+									<option value="">kristi__cherkasova</option>
+									<option value="">sozonik</option>
+								</select>
+								<a href="#" class="select_mobile2"></a>
+								<div class="add_createor">
+									<h4>Добавить создателя:</h4>
+									<div class="add_creator_wrap">
+										<input type="text" placeholder="Ник создателя">
+										<button class="btn_add_create">Добавить</button>
+									</div>
+									<button class="btn_submit">Сохранить</button>
+								</div>
+							
+							</div>					
+						</div>											
+						</div>																
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="mobile_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#">Сохранить выбор и вернуться назад</a>
+					<div class="search_cat_form">
+						<input type="text" placeholder="Поиск категории">
+						<button class="btn_find">Найти</button>
+					</div>
+					<div class="mobile_check_wrap">
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile1" name="check_mobile1">
+							<label for="check_mobile1">Категория 1</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile2" name="check_mobile2">
+							<label for="check_mobile2">Категория 2</label>
+						</div>						
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile3" name="check_mobile3">
+							<label for="check_mobile3">Категория 3</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile4" name="check_mobile4">
+							<label for="check_mobile4">Категория 4</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile5" name="check_mobile5">
+							<label for="check_mobile5">Категория 5</label>
+						</div>																		
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile6" name="check_mobile6">
+							<label for="check_mobile6">Категория 6</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile7" name="check_mobile7">
+							<label for="check_mobile7">Категория 7</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile8" name="check_mobile8">
+							<label for="check_mobile8">Категория 8</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile9" name="check_mobile9">
+							<label for="check_mobile9">Категория 9</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile10" name="check_mobile10">
+							<label for="check_mobile10">Категория 1</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile11" name="check_mobile11">
+							<label for="check_mobile11">Категория 1</label>
+						</div>
+						<div class="mobile_check">
+							<input type="checkbox" id="check_mobile12" name="check_mobile12">
+							<label for="check_mobile12">Категория 1</label>
+						</div>																																										
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section class="mobile_section2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+					<a href="#">Сохранить выбор и вернуться назад</a>
+					<div class="search_cat_form">
+						<input type="text" placeholder="Поиск категории">
+						<button class="btn_find">Найти</button>
+					</div>	
+					<div class="mobile_radio_wrap">
+						<div class="mobile_radio">
+						  <input type="radio" id="radio" name="radio" />
+						  <label for="radio">ya.molly</label>							
+						</div>
+						<div class="mobile_radio">
+						  <input type="radio" id="radio1" name="radio" />
+						  <label for="radio1">alexandramitroshina</label>							
+						</div>	
+						<div class="mobile_radio">
+						  <input type="radio" id="radio2" name="radio" />
+						  <label for="radio2">alex_brain</label>							
+						</div>	
+						<div class="mobile_radio">
+						  <input type="radio" id="radio3" name="radio" />
+						  <label for="radio3">abramova_blog</label>							
+						</div>																		
+						<div class="mobile_radio">
+						  <input type="radio" id="radio4" name="radio" />
+						  <label for="radio4">vikunciy_1991</label>							
+						</div>							
+						<div class="mobile_radio">
+						  <input type="radio" id="radio5" name="radio" />
+						  <label for="radio5">nastyasozonik</label>							
+						</div>							
+						<div class="mobile_radio">
+						  <input type="radio" id="radio6" name="radio" />
+						  <label for="radio6">kristi__cherkasova</label>							
+						</div>	
+						<div class="mobile_radio">
+						  <input type="radio" id="radio7" name="radio" />
+						  <label for="radio7">sozonik</label>							
+						</div>													
+						<div class="mobile_radio">
+						  <input type="radio" id="radio8" name="radio" />
+						  <label for="radio8">shteps_s_2</label>							
+						</div>	
+						<div class="mobile_radio">
+						  <input type="radio" id="radio9" name="radio" />
+						  <label for="radio9">irbis_legend</label>							
+						</div>													
+						<div class="mobile_radio">
+						  <input type="radio" id="radio10" name="radio" />
+						  <label for="radio10">elenagord</label>							
+						</div>							
+						<div class="mobile_radio">
+						  <input type="radio" id="radio11" name="radio" />
+						  <label for="radio11">timatiofficial</label>							
+						</div>							
+					</div>			
+			</div>
+		</div>
+	</div>
+	</section>
+
+
+
+</section>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/sumoselect/jquery.sumoselect.min.js"></script>
+
+	
+	<script src="js/common.js"></script>
+	
+</body>
+</html>

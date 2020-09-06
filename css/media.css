@@ -1,0 +1,757 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.container{
+	padding: 0 20px;
+}
+.top_mnu ul li{
+	margin-left: 14px;
+}
+.check_wrap {
+    margin-right: 20px;
+}
+.btn_filter{
+	width: 100%;
+}
+.card .img_wrap{
+	height: 283px;
+}
+.price_wrap{
+	width: 70px;
+}
+.sotrud_item {
+    width: 45%;
+}
+.sotrud_item h3{
+	padding-top: 30px;
+	font-size: 31px;
+	line-height: 35px;
+}
+.game_price_wrap.flex{
+	width: 32%;
+}
+.btn_oform{
+	width: 100%;
+	font-size: 13px;
+}
+.galery_wrap{
+	padding-left: 0;
+}
+.galery_wrap .img_wrap,.galery_wrap .video_wrap{
+	width: 47%;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.ipad_category_wrap{
+		display: block;
+	}
+.top_mnu{
+	display: none;
+}
+
+.filter_ipad_btn{
+	position: relative;
+display: block;
+    font-size: 14px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 87px;
+    height: 34px;
+    line-height: 25px;
+    color: #4D4D4D;
+}
+.filter_ipad_btn::before{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	content: '';
+	background: #FF4B4B;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+}
+.sort_wrap{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	padding-top: 15px;
+	margin-right: 0;
+}
+.ipad_category_wrap h3{
+font-size: 15px;
+line-height: 19px;
+
+
+color: #222222;	
+}
+.ipad_category_wrap .SumoSelect{
+	background: #F7F7F7;
+width: 280px;
+height: 45px;
+line-height: 45px;
+
+border: 1px solid #F0F0F0;
+box-sizing: border-box;
+border-radius: 3px;
+}
+.ipad_category_wrap .SumoSelect > .CaptionCont > label{
+	background-color: transparent;
+	border: none;
+}
+.ipad_category_wrap .SumoSelect > .CaptionCont > label i{
+	background-image: url(../img/appear_grey.svg);
+}
+.ipad_category_wrap .SumoSelect > .CaptionCont > span{
+	font-size: 16px;
+}
+.ipad_category_wrap .SumoSelect.open > .optWrapper {
+    top: 45px;
+}
+.ipad_category_wrap .SumoSelect > .optWrapper > .options li.opt{
+	padding: 0 12px;
+}
+.ipad_category_wrap .SumoSelect > .optWrapper > .options li label{
+	height: 42px;
+	font-size: 14px;
+
+
+color: #4D4D4D;
+}
+.ipad_category_wrap .SumoSelect > .optWrapper > .options li.opt:hover{
+	background: #F0F0F0;
+font-weight: 700;
+
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
+}
+.catalog_mnu{
+	display: none;
+}
+.ipad_category_wrap h2{
+font-size: 20px;
+line-height: 26px;
+
+
+color: #222222;	
+}
+.filter_clear{
+	display: block;
+}
+.filter_clear_wrap{
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	justify-content: center;
+	margin-left: 0;
+	border-bottom: 1px solid #F0F0F0;
+}
+.filter_clear_wrap h2{
+	position: absolute;
+	left: 0;
+
+
+}
+.catalog_mnu_wrap{
+    width: 100%;
+    bottom: 0;
+    z-index: 99999;
+    right: 0;
+    overflow: scroll;
+    background: #fff;
+    padding: 20px;
+    height: 75vh;
+
+    position: fixed;
+display: none;
+
+}
+.filter_close{
+	position: absolute;
+	top: 21px;
+	right: 21px;
+	    z-index: 1;
+}
+.copyright{
+	display: none;
+}
+.privat_mnu{
+	padding-bottom: 30px;
+}
+.bottom_mnu{
+	padding-bottom: 30px;
+}
+.galery_wrap{
+	justify-content: flex-start;
+}
+.galery_wrap .img_wrap, .galery_wrap .video_wrap{
+	width: auto;
+}
+.card_sec .text_wrap{
+	padding-left: 0;
+	padding-top: 30px;
+}
+.card_sec .text_wrap .price_wrap{
+	width: 100%;
+}
+.card_sec .text_wrap .old_price{
+	width: auto;
+}
+.card_sec .text_wrap .new_price{
+	width: auto;
+	margin-right: 10px;
+}
+.card_sec .text_wrap .btn_basket{
+	margin-top: 20px;
+}
+.catalog_order{
+	display: flex;
+	flex-wrap: wrap;
+}
+.catalog_check_wrap{
+	order: 2;
+}
+.catalog_price_wrap{
+	order: 1;
+}
+.catalog_price_input input{
+	height: 45px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.basket{
+	display: none;
+}
+.skidka{
+	margin-left: 0;
+	font-size: 12px;
+	line-height: 15px;
+}
+.basket_mob{
+	display: block;
+    margin-left: 9px;
+}
+.basket_mob .basket_num{
+	position: absolute;
+right: 7px;
+    top: 1px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	font-size: 11px;
+}
+
+.top_line {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+section.sort_sec{
+	padding-top: 15px;
+}
+.sort_sec .all_games{
+	font-size: 20px;
+}
+.all_games span{
+	font-size: 21px;
+}
+.sort_wrap{
+	padding-top: 11px;
+}
+.catalog_block .col-xs-6{
+	padding: 0 9px;
+}
+
+
+.sotrud_item:last-child{
+	width: 100%;
+}
+.card{
+	border: none;
+	padding: 0;
+}
+.price_wrap {
+    width: 100%;
+    justify-content: flex-start;
+}
+.old_price{
+	width: auto;
+	font-size: 14px;
+}
+.new_price{
+	font-size: 18px;
+	width: auto;
+	margin-right: 5px;
+}
+.btn_basket{
+	width: 121px;
+	margin-top: 13px;
+}
+.discount_item{
+	    padding: 2px 15px 12px;
+}
+.card_plash{
+	top: 10px;
+	left: 10px;
+}
+.sotrud_item{
+	width: 100%;
+}
+.sotrud_block{
+	    padding: 23px 16px 30px;
+}
+.sotrud_item h3 {
+    padding-top: 2px;
+    font-size: 38px;
+    line-height: 49px;
+}
+.sotrud_item:last-child{
+	padding-top: 13px;
+}
+.sotrud_item p br{
+	display: none;
+}
+.btn_game {
+    font-size: 16px;
+    width: 277px;
+    height: 49px;
+
+
+    line-height: 49px;
+
+    margin-top: 21px;
+
+}
+section.catalog_sec{
+	padding-bottom: 57px;
+}
+footer .logo{
+	display: none;
+}
+footer .row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+footer .row .col-xs-12:first-child{
+	-webkit-order: 3;
+	-moz-order: 3;
+	-ms-order: 3;
+	-o-order: 3;
+	order: 3;
+}
+footer .row .col-xs-12:nth-child(2){
+	-webkit-order: 1;
+	-moz-order: 1;
+	-ms-order: 1;
+	-o-order: 1;
+	order: 1;
+
+}
+footer .row .col-xs-12:nth-child(3){
+	-webkit-order: 2;
+	-moz-order: 2;
+	-ms-order: 2;
+	-o-order: 2;
+	order: 2;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #F0F0F0;	
+}
+.bottom_mnu{
+	padding-top: 16px;
+	padding-bottom: 14px;
+}
+.bottom_mnu ul li{
+	padding-bottom: 9px;
+}
+.bottom_mnu ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.bottom_phone, .bottom_mail{
+	margin-top: 13px;
+}
+.bottom_cont_flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+footer .soc_icon{
+	margin-right: 0;
+	margin-left: 9px;
+}
+.privat_mnu ul li{
+	display: inline-block;
+	margin-right: 30px;
+}
+.privat_mnu{
+	padding-top: 12px;
+	padding-bottom: 4px;
+}
+.copyright{
+	display: block;
+	padding-top: 0;
+}
+.how_show_card{
+	margin-top: 10px;
+}
+.basket_mob .icon_wrap{
+	opacity: .5;
+}
+.basket_mob_in .icon_wrap{
+	opacity: 1;
+}
+.basket_mob_in .basket_num{
+	background: #FF4B4B;
+	color: #fff;
+}
+.more_game_sec .col-xs-6{
+	    padding: 0 9px;
+}
+section.basket_sec{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.btn_back{
+	margin-bottom: 20px;
+}
+.kvo_games_block{
+font-size: 20px;
+line-height: 26px;	
+}
+.basket_empty_wrap p{
+	padding-top: 15px;
+}
+.basket_empty_wrap{
+	padding-bottom: 20px;
+}
+section.more_game_sec{
+	padding-top: 0;
+}
+.more_game_sec h2{
+	font-size: 18px;
+}
+.btn_remove{
+	display: none;
+}
+.add_game_block{
+	margin-top: 15px;
+
+}
+.game{
+	height: auto;
+	    padding: 7px 10px;
+}
+.game h3{
+	width: 100%;
+	padding-bottom: 15px;
+}
+.game_price_wrap.flex {
+width: 70%;
+    justify-content: flex-start;
+}
+.add_game_block{
+	padding: 8px;
+}
+.game_price_wrap .new_price{
+	    margin: 0px 8px 0 0;
+}
+.game_discount{
+	margin-right: 5px;
+}
+.remove_game{
+	font-size: 14px;
+}
+.itog_block{
+	padding: 22px 10px;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.btn_oform{
+	font-size: 16px;
+}
+.game_row{
+	padding-bottom: 0;
+}
+.remove_mobile{
+	display: block;
+}
+.remove_mobile .btn_remove{
+	display: block;
+	float: none;
+	margin-bottom: 20px;
+}
+.title_mobile_card{
+	display: block;
+font-size: 20px;
+line-height: 26px;
+color: #222222;	
+}
+.galery_wrap {
+	justify-content: space-between;
+	padding-top: 15px;
+}
+.galery_wrap .img_wrap, .galery_wrap .video_wrap{
+	width: 48%;
+	margin: 0;
+}
+.card_sec .text_wrap h3{
+	display: none;
+}
+.card_sec .text_wrap p{
+	width: 100%;
+font-size: 14px;
+line-height: 150%;	
+}
+.card_sec .text_wrap .card_flex{
+	padding-top: 18px;
+}
+.card_sec .text_wrap .new_price{
+	font-size: 22px;
+}
+.card_sec .text_wrap .old_price{
+	font-size: 16px;
+}
+.card_sec .text_wrap .btn_basket{
+	margin-top: 10px;width: 100%;
+}
+.main_admin .container{
+	padding: 0 15px;
+}
+.admin_scroll{
+overflow: auto;
+}
+.admin_add_game_block{
+width: 559px;
+}
+.admin_pagination{
+	padding-left: 0;
+}
+.admin_pagination ul li{
+	margin: 0 ;
+}
+.form_inp h3{
+	padding-bottom: 6px;
+}
+.form_inp{
+	padding-bottom: 10px;
+}
+.form_inp textarea{
+	max-width: 100%;
+	min-width: 100%;
+}
+.form_inp input{
+	width: 100%;
+}
+.inp_wrap{
+	width: 100%;
+}
+.form_inp_wrap .SumoSelect{
+	width: 100%;
+}
+.add_creator_wrap input {
+    width: 68%;
+}
+.anketa_item{
+	width: 100%;
+}
+.modal_anketa .check_wrap span{
+	width: 91%;
+}
+.modal_anketa .check_wrap span br{
+	display: none;
+}
+header {
+    padding-bottom: 50px;
+}
+.top_line .col-xs-6:first-child{
+	padding-right: 0px;
+}
+.top_line .col-xs-6:last-child{
+	padding-left: 0px;
+}
+.logo {
+    width: 79%;
+}
+.mfp-wrap.mfp-close-btn-in.mfp-auto-cursor.mfp-ready{
+	position: static !important;
+}
+.mfp-container{
+	position: static;
+}
+.mfp-bg{
+	background: none;
+}
+.modal,.modal_pay,.modal_sucsses{
+	box-shadow: none;
+}
+.mfp-close-btn-in .mfp-close{
+	display: none;
+}
+.modal .check_wrap label span{
+	width: 80%;
+}
+.modal .check_wrap label span br{
+	display: none;
+}
+.modal, .modal_pay, #popup_sucsses, .modal_anketa, #popup_zayavka{
+	width: 100%;
+	position: static;
+}
+.top_line .row{
+	display: block;
+}
+.modal, .modal_pay, #popup_sucsses, .modal_anketa, #popup_zayavka{
+	position: static;
+	transform: none;
+	box-shadow: none;
+}
+.popup-fade, .popup-fade1, .popup-fade2, .popup-fade3, .popup-fade4{
+	display: block;
+}
+.popup-fade:before, .popup-fade1::before, .popup-fade2::before, .popup-fade3::before, .popup-fade4::before{
+	display: none;
+}
+.popup_btns_wrap{
+	display: none;
+}
+.popup_btns_wrap_mobile{
+	display: block;
+}
+.btn_game{
+	display: none;
+}
+.btn_game_mobile.btn_game{
+	display: block;
+}
+.btn_oform{
+	display: none;
+}
+.btn_oform.btn_oform_mobile{
+	display: block;
+}
+.catalog_block .col-xs-6:nth-child(2n+1){
+	border-right: 1px solid #F0F0F0;
+	
+}
+.catalog_sec .col-xs-6{
+	border-bottom: 1px solid #F0F0F0;
+}
+.card{
+	margin-bottom: 0;
+	padding: 15px 0;
+
+}
+.btn_show_more{
+	margin-top: 20px;
+}
+.select_mobile,.select_mobile2{
+	display: block;
+background: #FFFFFF;
+border: 1px solid #C8C8C8;
+box-sizing: border-box;
+border-radius: 5px;
+width: 100%;
+height: 38px;
+line-height: 38px;
+background-image: url(../img/appear_right.svg);
+background-position: 98% center;
+background-repeat: no-repeat;	
+}
+.inp_wrap .SumoSelect{
+	display: none;
+}
+.add_createor {
+    padding-top: 20px;
+}
+.arr_top{
+	display: none !important;
+}
+.modal p br{
+	display: none;
+}
+.modal h2{
+	border: none;
+}
+.modal_sucsses h2{
+	border: none;
+}
+.modal_anketa h2{
+	border: none;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
